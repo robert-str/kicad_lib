@@ -1,4 +1,4 @@
-(module DG300-5.0-02P (layer F.Cu) (tedit 5D723CFF)
+(module DG300-5.0-02P (layer F.Cu) (tedit 5D84813F)
   (descr "DEGSON ELECTRONICS DG300-5.0-02P-12-00A(H) P5mm D1.3mm  Body10x9mm")
   (tags DG300-5.0-02P)
   (fp_text reference REF** (at -0.6 -5.7) (layer F.SilkS)
@@ -47,8 +47,13 @@
   (fp_arc (start 0 0) (end 0 1.68) (angle -28) (layer F.SilkS) (width 0.12))
   (pad 2 thru_hole circle (at 5 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at 0 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/TerminalBlock_MetzConnect.3dshapes/TerminalBlock_MetzConnect_Type055_RT01502HDWU_1x02_P5.00mm_Horizontal.wrl
+  (model ${KICAD_SYMBOL_DIR}/kicad_libs_private/STEPs/DG300-5_0-02P-12.wrl
     (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KICAD_SYMBOL_DIR}/kicad_libs_private/STEPs/DG300-5_0-02P-12.step
+    (offset (xyz 2.5 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
