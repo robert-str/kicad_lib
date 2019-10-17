@@ -66,4 +66,9 @@ D Precision Voltage Supervisor with Integrated Watchdog Timer
 K TPS3851 watchdog
 $ENDCMP
 #
+$CMP DMG1029SV
+D Dual NMOS transistor, 6 pin package
+K transistor NMOS N-MOS N-MOSFET
+$ENDCMP
+#
 #End Doc Library
