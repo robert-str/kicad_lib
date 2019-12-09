@@ -20,6 +20,10 @@ D Dual NMOS transistor, 6 pin package
 K transistor NMOS N-MOS N-MOSFET
 $ENDCMP
 #
+$CMP MAX98357A
+D Tiny, Low-Cost, PCM Class D Amplifier with Class AB Performance
+$ENDCMP
+#
 $CMP MCP1501_WDFN
 D Microchip High-Precision Buffered Voltage Reference
 K Vref Voltage Reference MCP1501
