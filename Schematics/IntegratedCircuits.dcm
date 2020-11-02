@@ -15,6 +15,15 @@ K MAX2 TQFP
 F https://www.altera.com/content/dam/altera-www/global/en_US/pdfs/literature/hb/max2/max2_mii5v1.pdf
 $ENDCMP
 #
+$CMP DMG1029SV
+D Dual NMOS transistor, 6 pin package
+K transistor NMOS N-MOS N-MOSFET
+$ENDCMP
+#
+$CMP MAX98357A
+D Tiny, Low-Cost, PCM Class D Amplifier with Class AB Performance
+$ENDCMP
+#
 $CMP MCP1501_WDFN
 D Microchip High-Precision Buffered Voltage Reference
 K Vref Voltage Reference MCP1501
@@ -61,14 +70,29 @@ K ARM Cortex-M7 STM32F7 STM32F7x7
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00225424.pdf
 $ENDCMP
 #
+$CMP STMPS2141STR
+D In a Pack of 10, STMicroelectronics STMPS2141STR, 1-Channel Load Switch IC, High Side MOSFET Switch, 0.5A, 2.7 → 5.5V 5-Pin,
+K sot23
+F https://pl.farnell.com/stmicroelectronics/stmps2141str/power-load-sw-high-side-0-5a-sot/dp/2762725?CMP=GRHB-OCTOPART
+$ENDCMP
+#
 $CMP TPS3851H33EDRBR
 D Precision Voltage Supervisor with Integrated Watchdog Timer
 K TPS3851 watchdog
 $ENDCMP
 #
-$CMP DMG1029SV
-D Dual NMOS transistor, 6 pin package
-K transistor NMOS N-MOS N-MOSFET
+$CMP TPS3890
+F https://pl.mouser.com/Search/Refine?N=4294759686&Keyword=595-TPS389033DSET&utm_source=octopart&utm_medium=aggregator&utm_campaign=595-TPS389033DSET&utm_content=Texas%20Instruments
+$ENDCMP
+#
+$CMP USBDFxxW5
+D EMI filter and line termination for USB downstream ports; SOT323-5L
+F https://pl.farnell.com/stmicroelectronics/usbdf01w5/filter-low-pass-1ghz-sot-323-5/dp/2341665?st=usbdf
+$ENDCMP
+#
+$CMP VCNL3020
+D Fully Integrated Proximity Sensor With Infrared Emitter, I2C Interface, and Interrupt Function
+F https://pl.farnell.com/vishay/vcnl3020-gs08/optical-sensor-200mm-digital/dp/2504126?CMP=GRHB-OCTOPART
 $ENDCMP
 #
 #End Doc Library
