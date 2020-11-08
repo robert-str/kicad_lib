@@ -30,13 +30,18 @@ K Vref Voltage Reference MCP1501
 $ENDCMP
 #
 $CMP MCP1703
-D 250 mA, 16V max. input, High-Performance LDO - 1.8V output
-K MCP1703T-1802E/MC
+D 250 mA, 16V, Low Quiescent Current LDO Regulator
+K MCP1703-1802E/MC DFN-8 2x3mm package
 $ENDCMP
 #
 $CMP MCP1755
-D 300 mA, 16V max. input, High-Performance LDO - 1.8V output
-K MCP1755-1802E/MC
+D 300 mA, 16V max. input, High-Performance LDO
+K MCP1755-1802E/MC DFN-8 2x3mm package
+$ENDCMP
+#
+$CMP MCP1755S
+D 300 mA, 16V max. input, High-Performance LDO
+K MCP1755S-1802E/MC DFN-8 2x3mm package
 $ENDCMP
 #
 $CMP MCP79410
