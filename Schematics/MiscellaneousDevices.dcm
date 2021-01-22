@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP H110x
+D Transformator: LAN; SMD; 0÷70°C; Przekł: RX 1: 1,TX 1: 1; -1,1dB
+F https://www.tme.eu/pl/details/h1102nl/dlawiki-smd-pozostale/pulse/
+$ENDCMP
+#
 #End Doc Library
