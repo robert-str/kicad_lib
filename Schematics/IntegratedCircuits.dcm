@@ -75,6 +75,12 @@ K NFC RFID
 F HVQFN-40-6x6mm_P0.5mm_EP4.1x4.1mm_ThermalVias
 $ENDCMP
 #
+$CMP Q_PMOS_DSG_SuperSot6
+D P-MOSFET transistor, 4xdrain/source/gate in SuperSot6 package
+K transistor PMOS P-MOS P-MOSFET
+F ~
+$ENDCMP
+#
 $CMP STM32F777NIHx
 D ARM Cortex-M7 MCU, 2048KB flash, 384KB RAM, 216MHz, 1.7-3.6V, 168 GPIO, TFBGA-216
 K ARM Cortex-M7 STM32F7 STM32F7x7
