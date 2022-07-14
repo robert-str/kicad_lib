@@ -304,4 +304,5 @@
   (tbtext "Page: ${#}/${##}" (name "") (pos 22.639 3.4202) (font bold) (justify right) (comment "Paper format name")
 )
   (line (name "") (start 140 9.25) (end 140 2.02))
+  (line (name "") (start 275 9.25) (end 275 2.02))
 )

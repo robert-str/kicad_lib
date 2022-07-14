@@ -40,14 +40,19 @@
     ) (layer "F.Fab") (width 0.1) (fill solid) (tstamp 5311df85-2a18-4d4b-8c84-40119baeeea4))
   (pad "1" thru_hole rect (at -1.27 0) (size 2 3) (drill 1.1) (layers *.Cu *.Mask) (tstamp 872ba091-ccc3-452f-87f7-4acb38b0e291))
   (pad "2" thru_hole oval (at 1.27 0) (size 2 3) (drill 1.1) (layers *.Cu *.Mask) (tstamp 840d1c9f-f56c-44b4-988f-749161401f11))
-  (model "${KICAD_SYMBOL_DIR}/kicad_libs_private/STEPs/Conn_Pancon_MLSS100-2-D_eec.STEP"
+  (model "${KICAD_SYMBOL_DIR}/kicad_libs_private/STEPs/Conn_Pancon_MLSS100-2-D_eec.STEP" hide
     (offset (xyz 0 0.9 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KICAD6_3RD_PARTY}/kicad_libs_private/STEPs/Conn_Pancon_MLSS100-2-D_eec.STEP"
+  (model "${KICAD6_3RD_PARTY}/kicad_libs_private/STEPs/Conn_Pancon_MLSS100-2-D_eec.STEP" hide
     (offset (xyz 0 -0.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
+  )
+  (model "${KICAD6_3RD_PARTY}/kicad_libs_private/STEPs/c-640456-2-aa-3d.stp"
+    (offset (xyz 0 -0.5 2.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
   )
 )

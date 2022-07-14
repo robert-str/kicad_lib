@@ -70,16 +70,6 @@
   (pad "B18" smd rect (at -9.525 -2.25) (size 1.5 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 41c9c3b8-2883-4fdc-b499-17634b4fcf10))
   (pad "B19" smd rect (at -10.795 2.25) (size 1.5 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 516d561c-e210-47a1-b528-cf70e07f88f1))
   (pad "B20" smd rect (at -12.065 -2.25) (size 1.5 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a7298114-aaca-4638-99f8-608a3e4d556d))
-  (model "/home/robert/Projekty/MISS_PCBs/BIO-hardware/outputs/MOTOR/202205_v0.1_motor_module/202205_v0.1_motor_module_STEP.step" hide
-    (offset (xyz -22 -5.5 7.5))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "/home/robert/Projekty/MISS_PCBs/BIO-hardware/outputs/VAC/202205_v0.1_vac_module/202205_v0.1_vac_module_STEP.step"
-    (offset (xyz -22 -5.5 7.5))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
   (model "${KICAD6_3RD_PARTY}/kicad_libs_private/STEPs/690367291876 (rev1).stp"
     (offset (xyz 0.75 39.5 2.5))
     (scale (xyz 1 1 1))

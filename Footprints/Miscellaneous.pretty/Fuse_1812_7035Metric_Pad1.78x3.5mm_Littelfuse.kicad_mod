@@ -6,7 +6,7 @@
     (effects (font (size 1.5 1.5) (thickness 0.15)))
     (tstamp a38ea16a-c2ab-4ca0-b5f0-6f666a47b63a)
   )
-  (fp_text value "Fuse_1812_7035Metric_Pad1.78x3.5mm_Littelfuse" (at 1.9 6.6) (layer "F.Fab")
+  (fp_text value "Fuse_1812_7035Metric_Pad1.78x3.5mm_Littelfuse" (at 0.6 0) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp f6d5aa71-5a46-45d1-a9bd-8e73bf6ab14f)
   )
@@ -24,17 +24,7 @@
   (fp_line (start 2.3 1.65) (end 2.3 -1.65) (layer "F.Fab") (width 0.12) (tstamp 60abe1e9-23a8-484f-a6e0-e22ae5de7b49))
   (pad "1" smd rect (at -2.61 0) (size 1.78 3.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 93b8deca-977a-4094-abfb-3154bf23a961))
   (pad "2" smd rect (at 2.61 0) (size 1.78 3.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp dbf9e78b-3ef7-49e4-a371-358a9d08b9ce))
-  (model "${KICAD_SYMBOL_DIR}/kicad-packages3D/Resistor_SMD.3dshapes/R_2010_5025Metric.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_2010_5025Metric.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_2010_5025Metric.wrl"
+  (model "${KICAD6_3RD_PARTY}/kicad_libs_private/STEPs/Fuse_1812.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
